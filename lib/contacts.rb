@@ -15,5 +15,7 @@ require 'pry'
   # }
   
 def remove_strawberry(contacts)
-
+  contacts.each do |person, values|
+    valuse["favorite_ice_cream_flavors"]
+  end
 end
