@@ -16,6 +16,6 @@ require 'pry'
   
 def remove_strawberry(contacts)
   contacts.each do |person, values|
-    values["favorite_ice_cream_flavors"].delete_if {|flavor| flavor.downcase == "strawberry"}
+    values["favorite_ice_cream_flavors""].delete_if {|flavor| flavor.downcase == "strawberry"}
   end
 end
